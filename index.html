@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body
+    class="max-w-xl mx-auto border-black min-h-dvh bg-gradient-to-b from-black via-sky-950 to-gray-800"
+  >
+    <header class="text-white">
+      <img
+        src="./assets/pedro_pascal.webp"
+        alt="Pedro Pascal"
+        class="h-96 object-cover mask-radial-at-center mask-radial-from-55% mask-radial-to-96%"
+      />
+
+      <div class="flex justify-center items-center flex-col mb-8 -mt-4">
+        <span
+          class="text-purple-400 text-xl font-sans px-3 py-1 border rounded-full flex justify-center items-center shadow-sm bg-black/90 cursor-crosshair z-10"
+          >@Pedro Pascal</span
+        >
+
+        <h1 class="text-3xl font-extrabold leading-tight">This is my header</h1>
+      </div>
+
+      <section class="flex gap-2 justify-center items-center mt-4">
+        <a
+          class="bg-purple-100 p-2 w-12 h-12 flex items-center justify-center rounded-full hover:bg-purple-200 hover:scale-110 transition-transform duration-300"
+          href="https://www.twitch.tv/"
+          target="_blank"
+        >
+          <svg width="24" height="24">
+            <use xlink:href="./assets/sprite.svg#twitch" />
+          </svg>
+        </a>
+        <a
+          class="bg-black p-2 w-12 h-12 flex items-center justify-center rounded-full hover:bg-black hover:scale-110 transition-transform duration-300"
+          href="https://github.com/"
+          target="_blank"
+        >
+          <svg width="24" height="24">
+            <use xlink:href="./assets/sprite.svg#github" />
+          </svg>
+        </a>
+
+        <a
+          class="bg-white p-2 w-12 h-12 flex items-center justify-center rounded-full hover:bg-black hover:scale-110 transition-transform duration-300"
+          href="https://www.linkedin.com/"
+          target="_blank"
+        >
+          <svg width="24" height="24">
+            <use xlink:href="./assets/sprite.svg#linkedin" />
+          </svg>
+        </a>
+        <a
+          class="bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 p-2 w-12 h-12 flex items-center justify-center rounded-full hover:bg-black hover:scale-110 transition-transform duration-300"
+          href="https://www.instagram.com/"
+          target="_blank"
+        >
+          <svg width="24" height="24">
+            <use xlink:href="./assets/sprite.svg#instagram" />
+          </svg>
+        </a>
+        <a
+          class="bg-black p-2 w-12 h-12 flex items-center justify-center rounded-full hover:bg-black hover:scale-110 transition-transform duration-300"
+          href="https://www.twitter.com/"
+          target="_blank"
+        >
+          <svg width="24" height="24">
+            <use xlink:href="./assets/sprite.svg#x" />
+          </svg>
+        </a>
+        <a
+          class="bg-purple-100 p-2 w-12 h-12 flex items-center justify-center rounded-full hover:bg-black hover:scale-110 transition-transform duration-300"
+          href="https://www.youtube.com/"
+          target="_blank"
+        >
+          <svg width="24" height="24">
+            <use xlink:href="./assets/sprite.svg#youtube" />
+          </svg>
+        </a>
+      </section>
+    </header>
+    <main class="text-white">
+      <h1>This is my main</h1>
+      <p>This is my paragraph</p>
+    </main>
+    <footer class="text-white">
+      <h1>This is my footer</h1>
+      <p>This is my paragraph</p>
+    </footer>
+  </body>
+</html>
