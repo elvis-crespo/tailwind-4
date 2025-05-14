@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('/assets/fonts/DancingScript-VariableFont_wght.woff2') format('truetype');
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap; 
+}
+
+@theme {
+  --color-primary: #3490dc;
+  --color-primary-light: #6694e4;
+  --color-primary-dark: #1d4ed8;
+
+  --breakpoint-sm: 400px;
+
+  --font-display: 'Dancing Script', system-ui, sans-serif;
+}
+
+
+.social-buttons {
+  @apply p-2 size-12 sm:size-16 flex items-center justify-center rounded-full
+   hover:scale-110 transition-transform duration-300;
+}
